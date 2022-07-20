@@ -1,0 +1,25 @@
+name: Ali
+age: 28
+address: "dfjkdsh: sds "
+active: true
+key:
+  key: value
+  key2: 33
+
+json_object: {key: value, key_2, value}
+array:
+  - item 1
+  - item 2
+  - {key: value}
+objects_array:
+  - key: value
+    key_2: value
+  - new_object_key: value
+
+longText: >
+  hfuhgvjkdfhjk gjfdkhgjkdfh
+  jgkfdhhgjkdf
+
+longTextWithNewlines: |
+  hfuhgvjkdfhjk gjfdkhgjkdfh
+  jgkfdhhgjkdf
