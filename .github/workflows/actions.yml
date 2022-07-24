@@ -1,7 +1,10 @@
 name: Actions Workflow
 
 on: 
-  push:
+  schedule: 
+    - chron: "0/5 * * * *"
+    - chron: "0/6 * * * *"
+  # push:
   pull_request:
     types: [closed, assigned, opened, reopened]
 
